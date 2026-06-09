@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "VulnGen: A Reproducible Framework for Assessing Security in LLM-Generated Code"
+message: "If you use this framework, please cite it."
+type: software
+authors:
+  - family-names: Tiwari
+    given-names: Anuansh
+    affiliation: "Amity University, Lucknow, India"
+abstract: >-
+  VulnGen is a defensive framework for evaluating security-relevant defects in
+  code using a SAST ensemble with manual adjudication, together with a study
+  harness that produces measured, traceable results on public datasets.
+repository-code: "https://github.com/glassgotlazy/vulngen"
+license: MIT
+keywords:
+  - software security
+  - static analysis
+  - large language models
+  - CWE
+  - reproducibility
+# Note: add a DOI here only after depositing a real release (e.g. via Zenodo).
