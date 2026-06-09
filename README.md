@@ -91,7 +91,8 @@ PYTHONPATH=. python -m pytest tests/ -q
 ## Scope and honesty
 
 Claim only what you measure. This framework measures what a SAST ensemble plus
-human review can confirm on a specific public dataset. It does not by itself
+human review can confirm on a specific public dataset (see study/RELATED_WORK.md for the literature
+basis and baselines). It does not by itself
 establish in-the-wild rates, multi-model comparisons, or fine-tuning effects —
 each of those is a separate study requiring its own data.
 
