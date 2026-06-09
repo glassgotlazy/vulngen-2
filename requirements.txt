@@ -1,0 +1,6 @@
+# Core pipeline runs on the standard library only.
+# Optional external detectors (auto-detected if installed):
+# bandit
+# semgrep
+# Test runner:
+# pytest

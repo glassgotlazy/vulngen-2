@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "VulnGen: A Large-Scale Multi-Lingual Analysis of Security Vulnerabilities in LLM-Generated Code"
+message: "If you use this artifact, please cite the paper."
+authors:
+  - family-names: Tiwari
+    given-names: Anuansh
+    affiliation: "Amity University, Lucknow, India"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.vulngen2024
+repository-code: "https://github.com/amity-cs/vulngen"
+license: MIT

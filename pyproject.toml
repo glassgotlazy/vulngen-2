@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vulngen"
+version = "4.0.0"
+description = "Detection-side security-assessment pipeline for LLM-generated code (research artifact)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Anuansh Tiwari"}]
+keywords = ["security", "static-analysis", "llm", "cwe", "sast", "reproducibility"]
+dependencies = []   # core runs on the standard library only
+
+[project.optional-dependencies]
+sast = ["bandit", "semgrep"]      # optional external detectors
+test = ["pytest"]
+
+[project.scripts]
+vulngen = "vulngen.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/amity-cs/vulngen"
+
+[tool.setuptools.packages.find]
+include = ["vulngen*", "securebench*"]
